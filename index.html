@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>环球旅行 AtlasVoyage</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <header>
+    <div class="container topbar">
+      <div class="logo"><span>Atlas</span>Voyage</div>
+      <nav>
+        <ul>
+          <li><a href="index.html">首页</a></li>
+          <li><a href="pages/destinations.html">目的地</a></li>
+          <li><a href="pages/experiences.html">旅途体验</a></li>
+          <li><a href="pages/tips.html">攻略</a></li>
+          <li><a href="pages/gallery.html">影像</a></li>
+          <li><a href="pages/about.html">关于</a></li>
+        </ul>
+      </nav>
+      <button class="btn" aria-label="立即预订">预订行程</button>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container hero-grid">
+      <div>
+        <div class="kicker">环球旅行 · 灵感合集</div>
+        <h1>重新发现世界，用设计驱动的行程重新定义旅行。</h1>
+        <p>跨越24个时区的精选线路，顶尖策划师打造的沉浸式体验，带你在云端收集每一段记忆。</p>
+        <div class="badges">
+          <span class="badge">年度精选线路 × 15</span>
+          <span class="badge">实时中文管家</span>
+          <span class="badge">碳中和抵扣</span>
+        </div>
+        <div class="hero-actions">
+          <button class="btn" id="explore">探索精选</button>
+          <a class="btn secondary" href="pages/about.html">查看品牌故事 →</a>
+        </div>
+        <div class="marquee" aria-label="热门目的地滚动播报">
+          <div class="marquee-track">
+            巴厘岛阳光 · 冰岛极光 · 阿尔卑斯徒步 · 东京美食季 · 坎昆浮潜 · 摩洛哥沙丘 · 北海道粉雪 · 塞舌尔蜜月 · 悉尼海岸 · 迪拜超高空 · 瑞士金色山口 · 纽约艺术月
+          </div>
+        </div>
+      </div>
+      <div class="slider" aria-label="精选目的地轮播">
+        <div class="slide-track">
+          <div class="slide"><img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80" alt="海岛" /><div class="caption">马尔代夫 · 靛蓝海域</div></div>
+          <div class="slide"><img src="https://images.unsplash.com/photo-1505761671935-60b3a7427bad?auto=format&fit=crop&w=1200&q=80" alt="山地" /><div class="caption">瑞士 · 金色山口</div></div>
+          <div class="slide"><img src="https://images.unsplash.com/photo-1489515217757-5fd1be406fef?auto=format&fit=crop&w=1200&q=80" alt="城市" /><div class="caption">纽约 · 艺术季</div></div>
+        </div>
+        <div class="slider-dots">
+          <button aria-label="第一张" class="active"></button>
+          <button aria-label="第二张"></button>
+          <button aria-label="第三张"></button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="destinations">
+    <div class="container">
+      <h2>当季主打目的地</h2>
+      <p class="lead">五大主题精选，用不同角度看世界，每个链接可查看详细线路。</p>
+      <div class="grid cols-3">
+        <a class="card" href="pages/details/bali.html">
+          <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80" alt="巴厘岛" />
+          <div class="card-content">
+            <h3>巴厘岛 · 海岛静养</h3>
+            <p>晨间瑜伽、悬崖日落与漂浮早餐，让生活慢下来。</p>
+            <div class="tags"><span class="tag">海岛</span><span class="tag">SPA</span></div>
+            <div class="stats"><span>6日</span><span>¥9,800 起</span></div>
+          </div>
+        </a>
+        <a class="card" href="pages/details/iceland.html">
+          <img src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1200&q=80" alt="冰岛" />
+          <div class="card-content">
+            <h3>冰岛 · 极光逐梦</h3>
+            <p>瀑布、冰洞、黑沙滩，一路追逐极光带的绚烂。</p>
+            <div class="tags"><span class="tag">极地</span><span class="tag">摄影</span></div>
+            <div class="stats"><span>8日</span><span>¥18,600 起</span></div>
+          </div>
+        </a>
+        <a class="card" href="pages/details/tokyo.html">
+          <img src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1200&q=80&sat=-20" alt="东京" />
+          <div class="card-content">
+            <h3>东京 · 美食季</h3>
+            <p>和牛、寿司、怀石与街头小食的味蕾冒险。</p>
+            <div class="tags"><span class="tag">美食</span><span class="tag">城市</span></div>
+            <div class="stats"><span>5日</span><span>¥7,900 起</span></div>
+          </div>
+        </a>
+        <a class="card" href="pages/details/morocco.html">
+          <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1200&q=80" alt="摩洛哥" />
+          <div class="card-content">
+            <h3>摩洛哥 · 沙漠星空</h3>
+            <p>穿越撒哈拉，入住星空营地，听风掠过金色沙丘。</p>
+            <div class="tags"><span class="tag">探险</span><span class="tag">文化</span></div>
+            <div class="stats"><span>7日</span><span>¥12,400 起</span></div>
+          </div>
+        </a>
+        <a class="card" href="pages/details/sydney.html">
+          <img src="https://images.unsplash.com/photo-1506976785307-8732e854ad89?auto=format&fit=crop&w=1200&q=80" alt="悉尼" />
+          <div class="card-content">
+            <h3>悉尼 · 海岸冲浪</h3>
+            <p>邦迪日出、帆船巡游与歌剧院夜色。</p>
+            <div class="tags"><span class="tag">海岸</span><span class="tag">城市</span></div>
+            <div class="stats"><span>6日</span><span>¥9,500 起</span></div>
+          </div>
+        </a>
+        <a class="card" href="pages/details/kyoto.html">
+          <img src="https://images.unsplash.com/photo-1505761671935-60b3a7427bad?auto=format&fit=crop&w=1200&q=80&sat=-12" alt="京都" />
+          <div class="card-content">
+            <h3>京都 · 文化漫步</h3>
+            <p>和服花见、清水寺晨光与茶道私房课。</p>
+            <div class="tags"><span class="tag">人文</span><span class="tag">静心</span></div>
+            <div class="stats"><span>4日</span><span>¥6,600 起</span></div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" style="background:#f8fafc;">
+    <div class="container">
+      <h2>为何选择 AtlasVoyage</h2>
+      <p class="lead">为设计型旅行者打造的灵感系统，随时同步你的旅途偏好。</p>
+      <div class="grid cols-3">
+        <div class="card">
+          <div class="card-content">
+            <h3>策划师共创</h3>
+            <p>与全球 40+ 策划师远程共创行程，行前模拟体验，所见即所得。</p>
+            <div class="highlight">线上 24 小时中文服务</div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-content">
+            <h3>极致效率</h3>
+            <p>一键同步航班、签证、酒店确认单，自动生成离线攻略。</p>
+            <div class="highlight">平均节省 12 小时准备时间</div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-content">
+            <h3>可持续旅行</h3>
+            <p>碳排跟踪、低碳交通优选与当地公益项目捐赠。</p>
+            <div class="highlight">每单捐赠 1% 至海洋保护</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <div class="logo" style="color:#fff;"><span>Atlas</span>Voyage</div>
+        <p>让世界变成你的工作室与休息室。</p>
+      </div>
+      <div>
+        <h4>导航</h4>
+        <ul>
+          <li><a href="index.html">首页</a></li>
+          <li><a href="pages/destinations.html">目的地</a></li>
+          <li><a href="pages/experiences.html">体验</a></li>
+          <li><a href="pages/gallery.html">影像</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>联系我们</h4>
+        <ul>
+          <li><a href="mailto:hello@atlasvoyage.com">hello@atlasvoyage.com</a></li>
+          <li>+86 400-800-2024</li>
+          <li>北京 · 上海 · 伦敦 · 悉尼</li>
+        </ul>
+      </div>
+    </div>
+    <div class="container legal">
+      <div>© 2024 AtlasVoyage 环球旅行实验室</div>
+      <div><a href="#">隐私政策</a> · <a href="#">使用条款</a></div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
